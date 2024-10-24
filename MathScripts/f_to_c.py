@@ -1,10 +1,10 @@
-# Question: How do you convert a temperature from Farenheit to Celsius?
+# Question: How do you convert a temperature from Fahrenheit to Celsius?
 
-Farenheit = 82
+Fahrenheit = 82
 Celsius = 36
 
-convert_to_celsius = ((Farenheit) - 32) * 5/9
-#this is converting given farenheit temperature to celsius
+convert_to_celsius = ((Fahrenheit) - 32) * 5/9
+#this is converting given fahrenheit temperature to celsius
 print(format(convert_to_celsius, ".2f") + " degrees celsius")
 
 #checked with a converter, output is proper answer
